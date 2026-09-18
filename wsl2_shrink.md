@@ -1,3 +1,5 @@
+# WSL2 Ubuntu Safe Shrinking Disk
+
 ```powershell
 
 $D = "Ubuntu-24.04"
