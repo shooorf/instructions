@@ -1,4 +1,4 @@
-powershell
+```powershell
 
 $D = "Ubuntu-24.04"
 wsl -d $D -- df -h /
@@ -25,3 +25,4 @@ wsl --manage $D --resize 300GB
 
 wsl -d $D -- df -h /
 (Get-Item $vhd).Length/1024/1024/1024
+```
